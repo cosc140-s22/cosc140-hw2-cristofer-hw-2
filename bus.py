@@ -4,7 +4,7 @@
 #
 #######################################################
 
-'''
+
 depature = input("When are you departing (HH:MM) ")
 aHour=int(depature[0:2])
 aMin=int(depature[3:])
@@ -55,5 +55,3 @@ if aHour>=24:
   aHour= 0 + aHour%24
 
 print(f"You will arrive at {int(aHour):02d}:{int(aMin):02d}:{int(aSec):02d} GMT ")
-
-'''
